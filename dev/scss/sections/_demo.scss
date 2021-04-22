@@ -11,6 +11,49 @@
   position: relative;
 
   /* guide */
-  // background-image: url('../img/guide.jpg');
-  // background-size: cover;
+  //background-image: url('../img/guide.jpg');
+  //background-size: cover;
+}
+#cloud-container{
+  position: absollute;
+  left: 0;
+  bottom: 0;
+  
+  >.clouds{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+}
+#rocket-container{
+  position: absolute;
+  width: 112px;
+  height: 232px;
+  left: 0 ;
+  top: 0;
+
+}
+#rocket-container img:nth-child(1){
+  position: absolute;
+  left: 445px;
+  top: 280px;
+
+}
+#rocket-container img:nth-child(2){
+  position: absolute;
+  left: 475px;
+  top: 495px;
+
+}
+#rocket-container img:nth-child(3){
+  position: absolute;
+  left: 540px;
+  top: 510px;
+
+}#rocket-container img:nth-child(4){
+  position: absolute;
+  left: 445px;
+  top: 510px;
+
 }
